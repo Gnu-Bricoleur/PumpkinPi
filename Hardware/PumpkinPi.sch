@@ -1,4 +1,207 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PumpkinPi:F1C100s U?
+U 1 1 60F0B7C1
+P 3550 2950
+F 0 "U?" H 5294 2996 50  0000 L CNN
+F 1 "F1C100s" H 5294 2905 50  0000 L CNN
+F 2 "" H 3550 2900 50  0001 C CNN
+F 3 "" H 3550 2900 50  0001 C CNN
+	1    3550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60F127A8
+P 6650 1750
+F 0 "J?" H 6568 1325 50  0000 C CNN
+F 1 "Conn_01x04" H 6568 1416 50  0000 C CNN
+F 2 "" H 6650 1750 50  0001 C CNN
+F 3 "~" H 6650 1750 50  0001 C CNN
+	1    6650 1750
+	-1   0    0    1   
+$EndComp
+Text Label 6850 1550 0    50   ~ 0
+USB_VBUS
+Text Label 6850 1650 0    50   ~ 0
+USB_DP
+Text Label 6850 1750 0    50   ~ 0
+USB_DM
+Text Label 4400 1250 1    50   ~ 0
+USB_DP
+Text Label 4500 1250 1    50   ~ 0
+USB_DM
+$Comp
+L power:GND #PWR?
+U 1 1 60F17A72
+P 6850 1850
+F 0 "#PWR?" H 6850 1600 50  0001 C CNN
+F 1 "GND" V 6855 1722 50  0000 R CNN
+F 2 "" H 6850 1850 50  0001 C CNN
+F 3 "" H 6850 1850 50  0001 C CNN
+	1    6850 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F18187
+P 5250 1900
+F 0 "#PWR?" H 5250 1650 50  0001 C CNN
+F 1 "GND" V 5255 1772 50  0000 R CNN
+F 2 "" H 5250 1900 50  0001 C CNN
+F 3 "" H 5250 1900 50  0001 C CNN
+	1    5250 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F187B5
+P 5250 2000
+F 0 "#PWR?" H 5250 1750 50  0001 C CNN
+F 1 "GND" V 5255 1872 50  0000 R CNN
+F 2 "" H 5250 2000 50  0001 C CNN
+F 3 "" H 5250 2000 50  0001 C CNN
+	1    5250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F18D07
+P 5250 2100
+F 0 "#PWR?" H 5250 1850 50  0001 C CNN
+F 1 "GND" V 5255 1972 50  0000 R CNN
+F 2 "" H 5250 2100 50  0001 C CNN
+F 3 "" H 5250 2100 50  0001 C CNN
+	1    5250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F190F2
+P 5250 2200
+F 0 "#PWR?" H 5250 1950 50  0001 C CNN
+F 1 "GND" V 5255 2072 50  0000 R CNN
+F 2 "" H 5250 2200 50  0001 C CNN
+F 3 "" H 5250 2200 50  0001 C CNN
+	1    5250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F1A559
+P 2800 1250
+F 0 "#PWR?" H 2800 1000 50  0001 C CNN
+F 1 "GND" H 2805 1077 50  0000 C CNN
+F 2 "" H 2800 1250 50  0001 C CNN
+F 3 "" H 2800 1250 50  0001 C CNN
+	1    2800 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F1A9F7
+P 2900 1250
+F 0 "#PWR?" H 2900 1000 50  0001 C CNN
+F 1 "GND" H 2905 1077 50  0000 C CNN
+F 2 "" H 2900 1250 50  0001 C CNN
+F 3 "" H 2900 1250 50  0001 C CNN
+	1    2900 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F1ACF3
+P 2600 1250
+F 0 "#PWR?" H 2600 1000 50  0001 C CNN
+F 1 "GND" H 2605 1077 50  0000 C CNN
+F 2 "" H 2600 1250 50  0001 C CNN
+F 3 "" H 2600 1250 50  0001 C CNN
+	1    2600 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F1B073
+P 2700 1250
+F 0 "#PWR?" H 2700 1000 50  0001 C CNN
+F 1 "GND" H 2705 1077 50  0000 C CNN
+F 2 "" H 2700 1250 50  0001 C CNN
+F 3 "" H 2700 1250 50  0001 C CNN
+	1    2700 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F1B40F
+P 1850 2000
+F 0 "#PWR?" H 1850 1750 50  0001 C CNN
+F 1 "GND" V 1855 1872 50  0000 R CNN
+F 2 "" H 1850 2000 50  0001 C CNN
+F 3 "" H 1850 2000 50  0001 C CNN
+	1    1850 2000
+	0    1    1    0   
+$EndComp
+NoConn ~ 1850 2100
+NoConn ~ 1850 1900
+NoConn ~ 2500 1250
+NoConn ~ 3200 1250
+NoConn ~ 3000 1250
+NoConn ~ 5250 3100
+NoConn ~ 5250 2900
+NoConn ~ 4100 4650
+NoConn ~ 4200 4650
+NoConn ~ 4300 4650
+NoConn ~ 4400 4650
+NoConn ~ 4500 4650
+NoConn ~ 4600 4650
+NoConn ~ 5250 4000
+NoConn ~ 5250 3900
+NoConn ~ 5250 3800
+Text Label 5250 3600 0    50   ~ 0
+RX
+Text Label 5250 3700 0    50   ~ 0
+TX
+NoConn ~ 1850 2400
+NoConn ~ 1850 2500
+NoConn ~ 1850 2600
+NoConn ~ 1850 2700
+NoConn ~ 1850 2800
+NoConn ~ 1850 2900
+NoConn ~ 1850 3000
+NoConn ~ 1850 3200
+NoConn ~ 1850 3300
+NoConn ~ 1850 3400
+NoConn ~ 1850 3500
+NoConn ~ 1850 3600
+NoConn ~ 1850 3700
+NoConn ~ 1850 3800
+NoConn ~ 1850 3900
+NoConn ~ 1850 4000
+NoConn ~ 3100 4650
+NoConn ~ 3000 4650
+NoConn ~ 2900 4650
+NoConn ~ 2800 4650
+NoConn ~ 2700 4650
+NoConn ~ 2600 4650
+NoConn ~ 2500 4650
+NoConn ~ 4100 1250
+NoConn ~ 3800 1250
+NoConn ~ 3700 1250
+NoConn ~ 3600 1250
+NoConn ~ 3500 1250
+NoConn ~ 3400 1250
 $EndSCHEMATC
