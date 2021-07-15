@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name PumpkinPi)(type Legacy)(uri ${KIPRJMOD}/PumpkinPi.lib)(options "")(descr ""))
+  (lib (name PumpkinPi-rescue)(type Legacy)(uri ${KIPRJMOD}/PumpkinPi-rescue.lib)(options "")(descr ""))
 )
