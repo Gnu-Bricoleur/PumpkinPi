@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PumpkinPi)(type KiCad)(uri ${KIPRJMOD}/PumpkinPi.pretty)(options "")(descr ""))
+)
