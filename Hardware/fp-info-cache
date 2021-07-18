@@ -1,4 +1,4 @@
-19082554914147979
+19213798170496901
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73485,6 +73485,13 @@ QFN-88_EP_10x10_Pitch0.4mm
 0
 104
 89
+PumpkinPi
+USB_PCB
+
+
+0
+0
+0
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
