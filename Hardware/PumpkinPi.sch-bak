@@ -882,10 +882,7 @@ F 3 "" H 1700 6100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 6100 1300 6100
-Connection ~ 1700 6100
 Connection ~ 1300 6100
-Wire Wire Line
-	1300 6100 1700 6100
 Wire Wire Line
 	1000 5800 1300 5800
 Connection ~ 1000 5800
@@ -978,10 +975,7 @@ F 3 "" H 1700 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 7050 1300 7050
-Connection ~ 1700 7050
 Connection ~ 1300 7050
-Wire Wire Line
-	1300 7050 1700 7050
 Wire Wire Line
 	1000 6750 1300 6750
 Connection ~ 1000 6750
@@ -1074,10 +1068,7 @@ F 3 "" H 1700 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 5200 1300 5200
-Connection ~ 1700 5200
 Connection ~ 1300 5200
-Wire Wire Line
-	1300 5200 1700 5200
 Wire Wire Line
 	1000 4900 1300 4900
 Connection ~ 1000 4900
