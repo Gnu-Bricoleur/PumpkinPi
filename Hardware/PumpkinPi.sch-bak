@@ -890,9 +890,9 @@ Connection ~ 1300 5800
 Wire Wire Line
 	1300 5800 1700 5800
 Text Label 700  5800 2    50   ~ 0
-LX1
+LX2
 Text Label 700  6100 2    50   ~ 0
-FB1
+FB2
 Wire Wire Line
 	700  6100 1000 6100
 Connection ~ 1000 6100
@@ -983,9 +983,9 @@ Connection ~ 1300 6750
 Wire Wire Line
 	1300 6750 1700 6750
 Text Label 700  6750 2    50   ~ 0
-LX1
+LX3
 Text Label 700  7050 2    50   ~ 0
-FB1
+FB3
 Wire Wire Line
 	700  7050 1000 7050
 Connection ~ 1000 7050

@@ -500,7 +500,7 @@ U 1 1 60F4B2FE
 P 6000 1700
 F 0 "J1" H 5972 1582 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 5972 1673 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 6000 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left" H 6000 1700 50  0001 C CNN
 F 3 "~" H 6000 1700 50  0001 C CNN
 	1    6000 1700
 	-1   0    0    1   
