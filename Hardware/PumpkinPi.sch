@@ -30,21 +30,21 @@ U 1 1 60F127A8
 P 8950 1950
 F 0 "J2" H 8868 1525 50  0000 C CNN
 F 1 "Conn_01x04" H 8868 1616 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8950 1950 50  0001 C CNN
+F 2 "PumpkinPi:USB_PCB" H 8950 1950 50  0001 C CNN
 F 3 "~" H 8950 1950 50  0001 C CNN
 	1    8950 1950
 	-1   0    0    1   
 $EndComp
 Text Label 9150 1750 0    50   ~ 0
 USB_VBUS
-Text Label 9150 1850 0    50   ~ 0
-USB_DP
 Text Label 9150 1950 0    50   ~ 0
-USB_DM
+USB_P
+Text Label 9150 1850 0    50   ~ 0
+USB_N
 Text Label 4400 1250 1    50   ~ 0
-USB_DP
+USB_P
 Text Label 4500 1250 1    50   ~ 0
-USB_DM
+USB_N
 $Comp
 L power:GND #PWR0101
 U 1 1 60F17A72
@@ -475,7 +475,7 @@ U 1 1 60F4B2FE
 P 7200 2000
 F 0 "J1" H 7172 1882 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 7172 1973 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 7200 2000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7200 2000 50  0001 C CNN
 F 3 "~" H 7200 2000 50  0001 C CNN
 	1    7200 2000
 	-1   0    0    1   
@@ -816,4 +816,94 @@ Text Label 1850 3300 2    50   ~ 0
 PD9
 Text Label 1850 3400 2    50   ~ 0
 PD10
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 610C6621
+P 6500 5100
+F 0 "J4" H 6580 5142 50  0000 L CNN
+F 1 "Conn_01x05" H 6580 5051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6500 5100 50  0001 C CNN
+F 3 "~" H 6500 5100 50  0001 C CNN
+	1    6500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 610C6F97
+P 6500 5750
+F 0 "J5" H 6580 5792 50  0000 L CNN
+F 1 "Conn_01x05" H 6580 5701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6500 5750 50  0001 C CNN
+F 3 "~" H 6500 5750 50  0001 C CNN
+	1    6500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 610C7B74
+P 6500 6400
+F 0 "J6" H 6580 6442 50  0000 L CNN
+F 1 "Conn_01x05" H 6580 6351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6500 6400 50  0001 C CNN
+F 3 "~" H 6500 6400 50  0001 C CNN
+	1    6500 6400
+	1    0    0    -1  
+$EndComp
+Text Label 6300 6200 2    50   ~ 0
+PD7
+Text Label 6300 6300 2    50   ~ 0
+PD8
+Text Label 6300 6400 2    50   ~ 0
+PD9
+Text Label 6300 6500 2    50   ~ 0
+PD10
+$Comp
+L power:GND #PWR0142
+U 1 1 610CA0AB
+P 6300 6600
+F 0 "#PWR0142" H 6300 6350 50  0001 C CNN
+F 1 "GND" H 6305 6427 50  0000 C CNN
+F 2 "" H 6300 6600 50  0001 C CNN
+F 3 "" H 6300 6600 50  0001 C CNN
+	1    6300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 610CAA93
+P 6300 5950
+F 0 "#PWR0143" H 6300 5700 50  0001 C CNN
+F 1 "GND" H 6305 5777 50  0000 C CNN
+F 2 "" H 6300 5950 50  0001 C CNN
+F 3 "" H 6300 5950 50  0001 C CNN
+	1    6300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 610CB2E2
+P 6300 5300
+F 0 "#PWR0144" H 6300 5050 50  0001 C CNN
+F 1 "GND" H 6305 5127 50  0000 C CNN
+F 2 "" H 6300 5300 50  0001 C CNN
+F 3 "" H 6300 5300 50  0001 C CNN
+	1    6300 5300
+	1    0    0    -1  
+$EndComp
+Text Label 6300 5750 2    50   ~ 0
+RX
+Text Label 6300 5850 2    50   ~ 0
+TX
+Text Label 6300 5550 2    50   ~ 0
+SDA
+Text Label 6300 5650 2    50   ~ 0
+SCL
+Text Label 6300 4900 2    50   ~ 0
+SPI_MOSI
+Text Label 6300 5000 2    50   ~ 0
+SPI_MISO
+Text Label 6300 5100 2    50   ~ 0
+SPI_CS
+Text Label 6300 5200 2    50   ~ 0
+SPI_CLK
 $EndSCHEMATC
