@@ -456,7 +456,7 @@ F 3 "" H 7000 1450 50  0001 C CNN
 $EndComp
 Text Label 4300 1250 1    50   ~ 0
 RESET
-Text Label 7000 1800 0    50   ~ 0
+Text Label 7000 1750 0    50   ~ 0
 RESET
 $Comp
 L Device:R R7
@@ -469,30 +469,6 @@ F 3 "~" H 7000 1600 50  0001 C CNN
 	1    7000 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 60F4B2FE
-P 7200 2000
-F 0 "J1" H 7172 1882 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 7172 1973 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7200 2000 50  0001 C CNN
-F 3 "~" H 7200 2000 50  0001 C CNN
-	1    7200 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 60F4D9AC
-P 7000 2000
-F 0 "#PWR0126" H 7000 1750 50  0001 C CNN
-F 1 "GND" H 7005 1827 50  0000 C CNN
-F 2 "" H 7000 2000 50  0001 C CNN
-F 3 "" H 7000 2000 50  0001 C CNN
-	1    7000 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 1750 7000 1900
 $Comp
 L power:+3V3 #PWR0127
 U 1 1 60F5284E
